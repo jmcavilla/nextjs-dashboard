@@ -1,4 +1,5 @@
 import { CartCounter } from "@/shopping-cart/components/CartCounter";
+import { useAppSelector } from "@/store";
 
 export const metadata = {
   title: 'Shopping Cart',
@@ -6,8 +7,6 @@ export const metadata = {
 }
 
 export default function NamePage() {
-
-  
 
   return (
     <div className="flex flex-col items-center justify-center w-full h-full">
